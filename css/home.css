@@ -1,0 +1,235 @@
+
+
+/* home slogan */
+.home-slogan{
+    width: 100%;
+    background-color: blue;
+    height: 510px;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.home-slogan img { 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.slogan-detail{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 70px;
+    height: 280px;
+    color: white;
+}
+
+.slogan-detail h1 { 
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.slogan-detail p { 
+    font-size: 1.22rem;
+}
+
+.slogan-detail button { 
+    border: none;
+    border-radius: 7px;
+    padding: 10px 0px;
+    height: 45px;
+    width: 49%;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #F47521;
+    color: white;
+}
+
+/* Home News  */
+.home-news {
+    position: relative; 
+    width: 100%;
+    background-color: #EAEAEA;
+    padding: 10px 60px;
+}
+
+#title-news {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline; 
+    text-decoration-line: underline; 
+    text-decoration-color: #F47521; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 8px; 
+    font-size: 27px; 
+    color: black;
+    font-weight: 500;
+}
+
+.newsContainer{
+    padding: 20px 10px;
+    width: 100%;
+    margin: 10px 0px;
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.news {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+}
+
+#midNews { 
+    margin: 0px 50px;
+}
+
+.news-photo { 
+    width: 282px;
+}
+
+.news-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.news h1{
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    font-weight: 550;
+}
+.news p {
+    font-size: 0.67rem;
+}
+
+.newsBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.newsBtn button { 
+    width: 170px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #F47521;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 0px;
+    border: none;
+}
+
+/* Home - Circuit */
+.home-circuit {
+    position: relative; 
+    width: 100%;
+    padding: 0px 0px;
+    padding-top: 10px;
+}
+
+#circuit-news {
+    text-align: center;
+    text-decoration: underline; 
+    text-decoration-line: underline; 
+    text-decoration-color: #F47521; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 10px; 
+    font-size: 27px; 
+    color: black;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.videoCircuit{
+    width: 100%;
+    height: 550px;
+}
+
+.videoCircuit img { 
+    width: 100%;
+    height: 100%;
+}
+
+.circuitInformation {
+    width: 100%; 
+    padding: 20px 70px;
+}
+
+.circuitInformation .detail h1 { 
+    font-weight: 520;
+}
+
+.circuitInformation .detail p{ 
+    letter-spacing: 0px;
+}
+
+#circuit-description { 
+    margin-bottom: 15px;
+}
+
+.locdate-info { 
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    position: relative;
+} 
+
+.locdate-info img { 
+    width: 30px;
+    height: 30px;
+}
+
+.locdate-info p { 
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 960px){
+    .home-slogan{
+        margin-top: 0px;
+    }
+    .newsContainer{
+        justify-content: left;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .slogan-detail{
+        height: 200px;
+        margin-left: 50px;
+    }
+    .slogan-detail p{
+        font-size: 0.8rem;
+    }
+
+    .slogan-detail h1 { 
+        font-size: 2rem;
+    }
+
+    .slogan-detail button {
+        font-size: 0.7rem;
+        width: 160px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 279px){
+    .locdate-info { 
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .locdate-info p {
+        margin: 5px;
+    }
+}
+

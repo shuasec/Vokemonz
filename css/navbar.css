@@ -1,0 +1,111 @@
+nav { 
+    background-color: red;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0px 65px;
+}
+
+#logo {
+    text-decoration: none;
+    font-size: 1.9rem;
+}
+
+.vokemons {
+    color: black; 
+}
+
+.vokemons::after {
+    content: "Go"; 
+    color: #F47521; 
+    font-weight: 650;
+    margin-left: 2px;
+}
+
+.navbarBtn { 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navbarBtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.navbarBtn a:hover{
+    color: #F47521;
+}
+
+.profile { 
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #0067B2;
+    position: static;
+}
+
+.profile img  { 
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 2px;
+    position: relative;
+}
+
+#hamburgerBtn{ 
+    position: absolute;
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#hamburgerBtn:hover{ 
+    background-color: transparent !important;
+    color: black !important;
+}
+
+
+
+@media only screen and (max-width: 960px){
+    nav{
+        position: relative;
+        padding: 0px 20px;
+    }
+
+    .profile{
+        display: none;
+    }
+
+    #hamburgerBtn { 
+        display: initial;
+        position: relative;
+    }
+
+    .navbarBtn { 
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items:  center;
+        top: 70px; left: 0;
+        background-color:#F47521;
+        width: 100%;
+        height: 150px;
+    }
+
+    .navbarBtn a:hover{
+        color: white;
+    }
+}
