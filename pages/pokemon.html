@@ -15,30 +15,279 @@
     <!-- Navbar -->
     <nav>
         <a href="./home.html" id="logo">
-            <span class="vokemons">Vokemons</span>
+            <span class="vokemons">Vokémon</span>
         </a>
         <button id="hamburgerBtn">&#9776;</button>
         <div class="navbarBtn">
-            <a href="./home.html" id="home">Home</a>
-            <a href="./news.html">News</a>
-            <a href="./pokemon.html">Pokemon</a>
-            <a href="./tournament.html">Tournament</a>
+            <a href="./home.html" id="homePage">Home</a>
+            <a href="./news.html" id="newsPage">News</a>
+            <a href="./pokemon.html" id="pokemonPage">Pokémon</a>
+            <a href="./tournament.html" id="tournamentPage">Tournament</a>
+            <a href="./register.html" id="registerPage">Register</a>
         </div>
-        <div class="profile">
-            <img src="../assets/home/profile.png" alt="">
-        </div>
+        <a href="./register.html" id="ProfileBox">
+            <div class="profile">
+                <img src="../assets/home/profile.png" alt="">
+            </div>
+        </a>
     </nav>
 
     <!-- Pokemon Intro Title -->
     <div class="pokemon-intro">
-        <img src="../assets/pokemons/pokemonTitle.png" alt="">
-        <h1>Show The Pokemon List <br>
+        <div class="intro-image">
+            <img src="../assets/pokemons/pokemonTitle.png" alt="">
+        </div>
+        <h1>Show The Pokémon List <br>
             and Detail
         </h1>
+        <p>+2120 Vokémon</p>
+    </div>
+
+    <div class="pokemonList">
+        <h1 id="title-pokemon-list">Pokémon List</h1>
+        <div class="listContainer">
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon1.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Bulbazur</p>
+                    <div id="pokemonPower">
+                        <p id="grass">Grass</p>
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon2.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Ivysaur</p>
+                    <div id="pokemonPower">
+                        <p id="grass">Grass</p>
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon3.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Venusaur</p>
+                    <div id="pokemonPower">
+                        <p id="grass">Grass</p>
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon4.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Charmander</p>
+                    <div id="pokemonPower">
+                        <p id="fire">Fire</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon5.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Charizard</p>
+                    <div id="pokemonPower">
+                        <p id="fire">Fire</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon6.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Squirtle</p>
+                    <div id="pokemonPower">
+                        <p id="water">Water</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- list 2 -->
+        <div class="listContainer">
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon7.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Caterpie</p>
+                    <div id="pokemonPower">
+                        <p id="bug">Bug</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon8.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Weedle</p>
+                    <div id="pokemonPower">
+                        <p id="bug">Bug</p>
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon9.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Pidgey</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                        <p id="flying">Flying</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon10.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Pidgeotto</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                        <p id="flying">Flying</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon11.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Pidgeot</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                        <p id="flying">Flying</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon12.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Rattata</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- list3 -->
+        <div class="listContainer">
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon13.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Spearow</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                        <p id="flying">Flying</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon14.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Fearow</p>
+                    <div id="pokemonPower">
+                        <p id="normal">Normal</p>
+                        <p id="flying">Flying</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon15.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Ekans</p>
+                    <div id="pokemonPower">
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon16.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Arbok</p>
+                    <div id="pokemonPower">
+                        <p id="poison">Poison</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon17.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Pikachu</p>
+                    <div id="pokemonPower">
+                        <p id="electric">Electric</p>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+            <div class="pokemonContainer">
+                <div class="pokemonPhoto">
+                    <img src="../assets/pokemons/pokemon18.png"alt="">
+                </div>
+                <div class="pokemonDetail">
+                    <p id="pokemonName">Raichu</p>
+                    <div id="pokemonPower">
+                        <p id="electric">Electric</p>>
+                    </div>
+                    <button>Detail</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-btn-box">
+            <button class="list-btn">1</button>
+        </div> 
     </div>
 
     <!-- footer -->
-    <!-- <footer>
+    <footer>
         <span class="vokemons">Vokemons</span>
         <p>Follow Us</p>
         <div class="social-media">
@@ -58,6 +307,6 @@
         <div class="copyright">
             <p>Copyright @2023; Designed by Joshua Prathama Raga Lawa</p>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>

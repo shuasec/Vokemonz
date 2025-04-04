@@ -1,0 +1,197 @@
+.container { 
+    height: 100vh;
+    width: 100vw;
+    background: #F47521;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.registerContainer { 
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+}
+
+.registerBox { 
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding: 65px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.registerSlogan {
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+    font-size: 1.9rem;
+}
+
+.vokemons {
+    color: black; 
+    font-weight: 450;
+}
+
+.vokemons::after {
+    content: "S"; 
+    color: #F47521; 
+    font-weight: 650;
+}
+
+#WelcomingTitle { 
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.registerBox p { 
+    font-size: 0.85rem;
+}
+
+.formContainer form{ 
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer form label, input { 
+    margin-bottom: 7px;
+}
+
+.formContainer form label { 
+    font-weight: 550;
+}
+
+.inputBox, #genderDropdown { 
+    width: 370px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid !important;
+}
+
+#backBtn { 
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.term-condition { 
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#checkBox { 
+    margin: 0 !important;
+    margin-right: 10px !important;
+    background-color: red !important;
+}
+
+.registerSlogan img {
+    height: 100%;
+    width: 100%;
+}
+
+.registerSlogan .registerSloganContent { 
+    width: 440px;
+    height: 635px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    margin: 115px 75px;
+    border-radius: 30px;
+}
+
+.registerSloganContent { 
+    display: flex;
+    flex-direction: column;
+}
+
+.registerSloganContent .slogan { 
+    height: 45%;
+    width: 100%;
+    padding: 30px 0px;
+    padding-left: 30px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.registerSloganContent .sloganImage { 
+    height: 55%;
+    width: 100%;
+}
+
+.registerSloganContent .sloganImage img { 
+    width: 100%;
+    height: 100%;
+}
+
+.registerBtnBox {
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+#btnLogin::after { 
+    content: "Login"; 
+    color: #F47521; 
+    font-weight: 650;
+    margin-left: 2px;
+}
+
+#registerBtn { 
+    width: 280px;
+    height: 42px;
+    margin-bottom: 5px;
+    background-color: #F47521;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.registerBtnContainer { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.registerBtnContainer p { 
+    margin-left: 13.5px;
+}
+
+.required {
+    color: red;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .registerSlogan { 
+        display: none;
+        position: absolute;
+    }
+
+    .registerBox { 
+        width: 100%;
+        height: 100%;
+        justify-content: left;
+    }
+
+}
+

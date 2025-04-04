@@ -1,3 +1,7 @@
+#newsPage { 
+    color: #F47521;
+}
+
 .popular-news { 
     width: 100%;
     padding: 20px 85px;
@@ -7,7 +11,6 @@
 }
 
 .popular-news-image { 
-    background-color: red;
     height: 370px;
     width: 450px;
     margin-right: 50px;
@@ -154,8 +157,9 @@
     background-color: #F47521;
     border: none;
     color: white;
-    width: 18px;
-    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
     text-align: center;
     font-size: 0.7rem;
 }
@@ -198,6 +202,10 @@
         width: 180px;
         padding: 8px;
         font-size: 0.7rem;
+    }
+
+    #newsPage { 
+        color: white;
     }
 }
 

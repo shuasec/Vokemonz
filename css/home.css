@@ -1,9 +1,10 @@
-
+#homePage { 
+    color: #F47521;
+}
 
 /* home slogan */
 .home-slogan{
     width: 100%;
-    background-color: blue;
     height: 510px;
     margin-top: 70px;
     position: relative;
@@ -88,7 +89,7 @@
 }
 
 #midNews { 
-    margin: 0px 50px;
+    margin: 0px 40px;
 }
 
 .news-photo { 
@@ -144,7 +145,7 @@
     text-underline-offset: 10px; 
     font-size: 27px; 
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 25px;
 }
 
@@ -197,6 +198,10 @@
     }
     .newsContainer{
         justify-content: left;
+    }
+
+    #homePage { 
+        color: white;
     }
 }
 

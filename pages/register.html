@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registerContainer">
+            <div class="registerBox">
+                <a href="./home.html" id="backBtnLink">
+                    <img src="../assets/register/backBtn.png" alt="" id="backBtn">
+                </a>
+                <a href="./home.html" id="logo">
+                    <span class="vokemons">Vokemon</span>
+                </a>
+                <h1 id="WelcomingTitle">Welcome !</h1>
+                <p>Start your Vokemons adventure here!</p>
+                <div class="formContainer">
+                    <form action="" id="registrationForm">
+                        <label for="nameBox" >Name<span class="required">*</span></label>
+                        <input class="inputBox" type="text" id="nameInput" required placeholder="Input Name">
+                        <label for="nameBox">Email<span class="required">*</span></label>
+                        <input class="inputBox" type="text"  id="emailInput" required  placeholder="Input Name">
+                        <label for="nameBox">Password<span class="required">*</span></label>
+                        <input class="inputBox" type="password"  id="passwordInput" required placeholder="Input Password">
+                        <label for="nameBox">Confirm Password<span class="required">*</span></label>
+                        <input class="inputBox" type="password"  id="confirmPasswordInput" required placeholder="Input Password">
+                        <label for="nameBox">Gender<span class="required">*</span></label>
+                        <select class="genderDropdown" id="genderDropdown" required>
+                            <option value="Default">Choose Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="term-condition">
+                            <input type="checkbox" id="checkBox">
+                            <p>I agree to the Terms and Conditions.</p>
+                        </div>
+                        <div class="registerBtnBox">
+                            <div class="registerBtnContainer">
+                                <button id="registerBtn">Register</button>
+                                <p id="btnLogin">Already have an account? </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="registerSlogan">
+                <img src="../assets/register/registerSloganBG.png" alt="">
+                <div class="registerSloganContent">
+                    <div class="slogan">
+                        <p>Explore The <br>
+                            Vokémon and <br>
+                            Join The Event
+                        </p>
+                    </div>
+                    <div class="sloganImage">
+                        <img src="../assets/register/pokemonRegister.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <span class="vokemons">Vokemons</span>
+        <p>Follow Us</p>
+        <div class="social-media">
+            <div class="circle">
+                <img src="../assets/home/instagram.svg" alt="">
+            </div>
+            <div class="circle">
+                <img src="../assets/home/facebook.svg" alt="">
+            </div>
+            <div class="circle">
+                <img src="../assets/home/linkedin.svg" alt="">
+            </div>
+            <div class="circle">
+                <img src="../assets/home/whatsapp.svg" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023; Designed by Joshua Prathama Raga Lawa</p>
+        </div>
+    </footer>
+    <script src="../script/register.js"></script>
+</body>
+</html>

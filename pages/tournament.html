@@ -15,44 +15,51 @@
     <!-- Navbar -->
     <nav>
         <a href="./home.html" id="logo">
-            <span class="vokemons">Vokemons</span>
+            <span class="vokemons">Vokémon</span>
         </a>
         <button id="hamburgerBtn">&#9776;</button>
         <div class="navbarBtn">
-            <a href="./home.html" id="home">Home</a>
-            <a href="./news.html">News</a>
-            <a href="./pokemon.html">Pokemon</a>
-            <a href="./tournament.html">Tournament</a>
+            <a href="./home.html" id="homePage">Home</a>
+            <a href="./news.html" id="newsPage">News</a>
+            <a href="./pokemon.html" id="pokemonPage">Pokémon</a>
+            <a href="./tournament.html" id="tournamentPage">Tournament</a>
+            <a href="./register.html" id="registerPage">Register</a>
         </div>
-        <div class="profile">
-            <img src="../assets/home/profile.png" alt="">
-        </div>
+        <a href="./register.html" id="ProfileBox">
+            <div class="profile">
+                <img src="../assets/home/profile.png" alt="">
+            </div>
+        </a>
     </nav>
 
     <div class="lastTournament">
         <div class="lastTournamentPhoto">
-
+            <img src="../assets/tournament/lastTour.png" alt="">
         </div>
         <div class="lastTournamentDetail">
-            <h1>Final Pokemon World Championship 2023</h1>
+            <p id="division">MASTER DIVISION</p>
+            <h1>Final Vokémon World <br>
+                Championship 2023</h1>
             <div class="lasttournament-info">
                 <img src="../assets/tournament/calender.svg" alt="">
-                <p>22 December 2023</p>
+                <p>22 May 2023</p>
             </div>
             <div class="lasttournament-info">
                 <img src="../assets/tournament/clock.svg" alt="">
-                <p>Berlin, Germany</p>
+                <p>12.00 GMT</p>
             </div>
             <div class="lasttournament-detail-info">
-                <div class="playerProfile">
-
-                </div>
-                <div class="tournament-info">
-                    <p>Trainer Name</p>
-                    <p>Keitsuke Shibaraku</p>
-                    <div class="location-info">
-                        <img src="../assets/tournament/location.svg" alt="">
-                        <p>Osaka, Japan</p>
+                <div class="profileContainer">
+                    <div class="playerProfile">
+                        <img src="../assets/tournament/player1.png" alt="">
+                    </div>
+                    <div class="tournament-info">
+                        <p>Trainer Name</p>
+                        <p>Keitsuke Shibaraku</p>
+                        <div class="location-info">
+                            <img src="../assets/tournament/location.svg" alt="">
+                            <p>Osaka, Japan</p>
+                        </div>
                     </div>
                 </div>
                 <div class="tournament-score">
@@ -67,92 +74,104 @@
                         </div>
                     </div>
                 </div>
+                <div class="profileContainer">
+                    <div class="playerProfile">
+                        <img src="../assets/tournament/player2.png" alt="">
+                    </div>
+                    <div class="tournament-info">
+                        <p>Trainer Name</p>
+                        <p>Giovani Jason</p>
+                        <div class="location-info">
+                            <img src="../assets/tournament/location.svg" alt="">
+                            <p>Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Tournament -->
     <div class="tournamentList">
-        <h1 id="tournament-info">Latest News</h1>
+        <h1 id="tournament-info">Upcoming Match</h1>
         <div class="tournamentContainer">
             <div class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news1.png" alt="#"> 
+                    <img src="../assets/tournament/UpcomingMatch1.png" alt="#"> 
                 </div>
                 <div class="newsDesc">
-                    <h1>Detective Pikachu Returns<br>Event </h1>
+                    <h1>Future Frenzy: Unleashing <br>New VokémonS Power</h1>
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>10 Jan 2024</p>
                     <button>Detail</button>
                 </div>
             </div>
             <div id="midTournament" class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news2.png" alt="#"> 
+                    <img src="../assets/tournament/UpcomingMatch2.png" alt="#"> 
                 </div>
                 <div class="newsDesc">
-                    <h1>Detective Pikachu Returns<br>Event </h1>
+                    <h1>Mystic Duel: A Clash of <br>Unseen Forces</h1>
                     
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>20 Dec 2023</p>
                     <button>Detail</button>
                 </div>
             </div>
             <div class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news3.png" alt="#"> 
+                    <img src="../assets/tournament/UpcomingMatch3.png" alt="#"> 
                 </div>
                 <div class="newsDesc">
-                    <h1>Detective Pikachu Returns<br>Event </h1>
+                    <h1>Anniversary Grand Finale: <br>Legendary Showdown</h1>
                     
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>23 Dec 2023</p>
                     <button>Detail</button>
                 </div>
             </div>
         </div>
 
-        <h1 id="tournament-info">Latest News</h1>
+        <h1 id="tournament-info">Past Match</h1>
         <div class="tournamentContainer">
             <div class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news1.png" alt="#"> 
+                    <img src="../assets/tournament/PastMatch1.png" alt="#">  
                 </div>
                 <div class="newsDesc">
                     <h1>Detective Pikachu Returns<br>Event </h1>
-                    
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>10 May 2023</p>
                     <button>Detail</button>
                 </div>
             </div>
             <div id="midTournament" class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news2.png" alt="#"> 
+                    <img src="../assets/tournament/PastMatch2.png" alt="#">
                 </div>
                 <div class="newsDesc">
-                    <h1>Detective Pikachu Returns<br>Event </h1>
+                    <h1>Epic Rivalry Rematch: A<br>Nostalgic Encounter</h1>
                     
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>20 Jun 2023</p>
                     <button>Detail</button>
                 </div>
             </div>
             <div class="tournament">
                 <div class="news-photo" >
-                    <img src="../assets/news/news3.png" alt="#"> 
+                    <img src="../assets/tournament/PastMatch3.png" alt="#">
                 </div>
                 <div class="newsDesc">
-                    <h1>Detective Pikachu Returns<br>Event </h1>
+                    <h1>Elemental Extravaganza: <br>The Past Triumphs</h1>
                     
                 </div>
                 <div class="newsBtn">
-                    <p>3 Hours</p>
+                    <p>10 Jul 2023</p>
                     <button>Detail</button>
                 </div>
             </div>
@@ -163,7 +182,7 @@
 
 
     <!-- footer -->
-    <!-- <footer>
+    <footer>
         <span class="vokemons">Vokemons</span>
         <p>Follow Us</p>
         <div class="social-media">
@@ -183,6 +202,6 @@
         <div class="copyright">
             <p>Copyright @2023; Designed by Joshua Prathama Raga Lawa</p>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>

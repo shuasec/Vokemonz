@@ -1,10 +1,10 @@
 nav { 
-    background-color: red;
+    background-color: white;
     display: flex;
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 200;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,13 +19,13 @@ nav {
 
 .vokemons {
     color: black; 
+    font-weight: 700;
 }
 
 .vokemons::after {
-    content: "Go"; 
+    content: "S"; 
     color: #F47521; 
     font-weight: 650;
-    margin-left: 2px;
 }
 
 .navbarBtn { 
@@ -40,6 +40,7 @@ nav {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    transition: color 0.4s ease;
 }
 
 .navbarBtn a:hover{
@@ -77,7 +78,10 @@ nav {
     color: black !important;
 }
 
-
+#registerPage { 
+    display: none;
+    position: absolute;
+}
 
 @media only screen and (max-width: 960px){
     nav{
@@ -87,6 +91,12 @@ nav {
 
     .profile{
         display: none;
+        position: absolute;
+    }
+
+    #ProfileBox { 
+        display: none;
+        position: absolute;
     }
 
     #hamburgerBtn { 
@@ -102,7 +112,7 @@ nav {
         top: 70px; left: 0;
         background-color:#F47521;
         width: 100%;
-        height: 150px;
+        height: 180px;
     }
 
     .navbarBtn a:hover{
